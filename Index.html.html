@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Student Troubleshooting Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border-left: 5px solid #3498db;
+        }
+        .section h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section h3 {
+            color: #34495e;
+            font-size: 1.5rem;
+            margin: 1.5rem 0 1rem 0;
+        }
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin: 1.5rem 0;
+            border-left: 5px solid #e74c3c;
+        }
+        .vision-mission {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .vision, .mission {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .contact-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .contact-card h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+        .email {
+            font-size: 0.9rem;
+            word-break: break-all;
+            margin: 0.5rem 0;
+        }
+        .phone {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        li {
+            margin: 0.5rem 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .feature-card {
+            background: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            border-top: 4px solid #3498db;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            margin-top: 3rem;
+        }
+        @media (max-width: 768px) {
+            .vision-mission {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛠️ ICT Troubleshooting Guide</h1>
+            <p class="subtitle">Empowering Students to Overcome Technical Challenges</p>
+        </header>
+
+        <div class="section">
+            <h2>📱 Introduction</h2>
+            <p>Students today depend a lot on gadgets like laptops, tablets, and smartphones for studying, doing assignments, and attending online activities. These devices help them access information quickly and complete school tasks more efficiently.</p>
+            
+            <div class="highlight">
+                <strong>However, not all students have a smooth experience when using their gadgets for academic purposes.</strong> Many students struggle with technical problems such as:
+            </div>
+            
+            <ul>
+                <li>Low internet connection</li>
+                <li>Software errors</li>
+                <li>Battery issues</li>
+                <li>Devices that suddenly stop working</li>
+            </ul>
+
+            <p>These problems can interrupt their learning, delay the completion of assignments, and cause stress or frustration. When gadgets fail during important tasks like online classes, research, or submissions, students may feel pressured and worried about their performance.</p>
+
+            <p><strong>Understanding these struggles is important in order to find ways to support students and help them continue their studies without too many interruptions.</strong></p>
+
+            <p>The impact of these technical failures is most acutely felt during high-stakes moments, such as live online classes, intensive research sessions, or the final minutes before a submission deadline, often leading to intense pressure and anxiety regarding overall academic performance.</p>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Vision & Mission</h2>
+            <div class="vision-mission">
+                <div class="vision">
+                    <h3>🌟 Our Vision</h3>
+                    <p>To foster a more technologically proficient and resourceful community where students possess the digital literacy and independence to manage fundamental technology-related issues.</p>
+                    <p>By providing accessible support, the project aims to create an environment where technical barriers no longer interrupt the learning process or cause unnecessary stress and frustration for students.</p>
+                </div>
+                <div class="mission">
+                    <h3>🚀 Our Mission</h3>
+                    <p>To provide a practical and accessible digital platform that offers step-by-step troubleshooting tutorials for common gadget and internet connectivity problems.</p>
+                    <p>This project seeks to assist students in enhancing their problem-solving abilities and cultivating confidence in technological utilization through the provision of clear instructional materials and visual aids.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💡 Purpose</h2>
+            <p>This concept paper presents a proposed ICT-based solution designed to help students resolve common gadget and internet issues that disrupt their learning.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h4>📱 Online Guide</h4>
+                    <p>Digital platform, website, or social media page with simple troubleshooting tutorials</p>
+                </div>
+                <div class="feature-card">
+                    <h4>⏰ Save Time & Money</h4>
+                    <p>Fix basic technical issues independently without professional repairs</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🎓 Digital Literacy</h4>
+                    <p>Advance digital literacy and motivate students to develop greater independence</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📚 Academic Success</h4>
+                    <p>Continue academic activities more smoothly without major interruptions</p>
+                </div>
+            </div>
+
+            <p><strong>Ultimately, this initiative has the potential to reinforce the role of ICT in supporting educational advancement and to foster a more technologically proficient and resourceful community.</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>🔧 Description</h2>
+            <p>The proposed project is an ICT-based troubleshooting guide designed to assist students who frequently experience gadget and internet connectivity problems while studying.</p>
+            
+            <p>In today's digital learning environment, students rely heavily on devices such as smartphones, laptops, and stable internet connections to complete assignments, conduct research, and participate in online classes.</p>
+            
+            <div class="highlight">
+                <p><strong>However, many students encounter technical issues such as:</strong></p>
+                <ul>
+                    <li>Low internet</li>
+                    <li>Software glitches</li>
+                    <li>Device lagging</li>
+                    <li>Connectivity interruptions</li>
+                </ul>
+            </div>
+
+            <p>The troubleshooting guide will include basic solutions like:</p>
+            <ul>
+                <li>Checking network settings</li>
+                <li>Restarting devices</li>
+                <li>Clearing storage</li>
+                <li>Updating software</li>
+                <li>Identifying common causes of connectivity problems</li>
+            </ul>
+
+            <p>Visual aids such as screenshots, diagrams, or short instructional videos may also be included to make the instructions easier to understand.</p>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Support & Resources</h2>
+            <p>To successfully implement this project, several resources and tools are needed:</p>
+            <ul>
+                <li>Stable internet connection and laptop/computer for research</li>
+                <li>Digital platforms (website or social media page)</li>
+                <li>Graphic design and editing tools for visual aids</li>
+                <li>Reliable online sources and references</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📞 Contact Information</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>Bravo, R-jay, T.</h4>
+                    <p><strong>Project Coordinator</strong></p>
+                    <p class="email">rtbravo5426val@student.fatima.edu.ph</p>
+                    <p class="phone">09517548775</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Fernandez, Mariah Rain, B.</h4>
+                    <p class="email">mbfernandez4695val@student.fatima.edu.ph</p>
+                    <p class="phone">09951361662</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Apelo, Kathlyn Mae, P.</h4>
+                    <p class="email">kpapelo3442val@student.fatima.edu.ph</p>
+                    <p class="phone">09952926734</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Belleza, Ayesha Faith, J.</h4>
+                    <p class="email">ajbelleza4804val@student.fatima.edu.ph</p>
+                    <p class="phone">09813938159</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Talavera, Sofia Jia Ashley, J.</h4>
+                    <p class="email">sjtalavera4686val@student.fatima.edu.ph</p>
+                    <p class="phone">09159308762</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Reyes, Ryan Alfred, C.</h4>
+                    <p class="email">rcreyes4767val@student.fatima.edu.ph</p>
+                    <p class="phone">096249898987</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Lancian, Az Sleven, S.</h4>
+                    <p class="email">aslancian4666val@student.fatima.edu.ph</p>
+                    <p class="phone">09184454246</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Sarmiento, Venize, R.</h4>
+                    <p class="email">vrsarmiento7894val@student.fatima.edu.ph</p>
+                    <p class="phone">096186662561</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ICT Troubleshooting Guide | Empowering Students Through Technology</p>
+    </footer>
+</body>
+</html>
